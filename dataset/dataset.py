@@ -2,7 +2,7 @@ import pandas as pd
 
 # cargar el dataset
 df_raw = pd.read_csv(
-    "listings.csv",
+    "libreria/listings.csv",
     encoding="utf-8",
     low_memory=False
 )
