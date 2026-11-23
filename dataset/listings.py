@@ -55,6 +55,22 @@ def build_mun_lookup(df_mun: pd.DataFrame) -> dict:
         "bidegoian": "20024",
         "etxebarri anteiglesia de san esteban etxebarri doneztebeko elizatea": "48029",
         "garay": "48039",
+        "donostia san sebastian": "20069",
+        "abadino": "48001",
+        "abanto y ciervana abanto zierbena": "48002",
+        "ereno": "48033",
+        "lantaron": "01902",
+        "valdegovia": "01055",
+        "alegria dulantzi": "01001",
+        "onati": "20059",
+        "urduna orduna": "48074",
+        "valle de trapaga trapagaran": "48080",
+        "manaria": "48059",
+        "lagran": "01030",
+        "banos de ebro": "01011",
+        "iruna oka": "01901",
+        "arminon": "01006",
+        "menaka": "48064",
     }
     lookup.update(extra_aliases)
     return lookup
