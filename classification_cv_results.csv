@@ -1,0 +1,5 @@
+model,accuracy,balanced_accuracy,f1,roc_auc,f1_std,best_params
+Random Forest,0.8,0.773,0.716,0.865,0.038,"{'model__max_depth': 10, 'model__min_samples_leaf': 1, 'model__n_estimators': 400}"
+Logistic Regression,0.738,0.748,0.699,0.821,0.025,"{'model__C': 100, 'model__class_weight': 'balanced'}"
+Decision Tree,0.761,0.752,0.697,0.798,0.024,"{'model__max_depth': 8, 'model__min_samples_leaf': 1}"
+KNN,0.738,0.732,0.675,0.818,0.033,"{'model__n_neighbors': 21, 'model__weights': 'uniform'}"
